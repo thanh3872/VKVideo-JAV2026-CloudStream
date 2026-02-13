@@ -6,11 +6,11 @@
     {
       "name": "VKVideo JAV2026",
       "description": "Xem video t\u1eeb k\u00eanh @jav2026 tr\u00ean VK Video",
-      "version": "1.0.0",
-      "code": 1,
+      "version": "1.0.1",
+      "code": 2,
       "icon": "https://raw.githubusercontent.com/thanh3872/VKVideo-JAV2026-CloudStream/main/icon.png",
       "fileSize": 0,
-      "changeLog": "Initial release",
+      "changeLog": "S\u1eeda l\u1ed7i c\u00e0i \u0111\u1eb7t, t\u1ef1 \u0111\u1ed9ng build release",
       "sources": [
         {
           "name": "GitHub Release",

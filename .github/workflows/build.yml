@@ -1,9 +1,12 @@
-name: Build CloudStream Extension
+name: Build and Release CloudStream Extension
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -24,8 +27,28 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew assembleRelease
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
+      - name: Get version
+        id: get_version
+        run: echo "version=$(date +'%Y%m%d.%H%M%S')" >> $GITHUB_OUTPUT
+
+      - name: Rename APK
+        run: |
+          mkdir -p release
+          cp app/build/outputs/apk/release/*.apk release/extension.apk || true
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: extension-apk
-          path: app/build/outputs/apk/release/*.apk
+          tag_name: ${{ steps.get_version.outputs.version }}
+          name: Release ${{ steps.get_version.outputs.version }}
+          files: release/extension.apk
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update latest tag
+        run: |
+          git tag -f latest
+          git push -f origin latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
