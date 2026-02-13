@@ -1,0 +1,28 @@
+{
+  "error": {
+    "error_code": 5,
+    "error_msg": "User authorization failed: client_secret is incorrect.",
+    "request_params": [
+      {
+        "key": "v",
+        "value": "5.269"
+      },
+      {
+        "key": "client_id",
+        "value": "52649896"
+      },
+      {
+        "key": "videos",
+        "value": "-235033828_456239018_cb7662bbad40d80ce0"
+      },
+      {
+        "key": "method",
+        "value": "video.get"
+      },
+      {
+        "key": "oauth",
+        "value": "1"
+      }
+    ]
+  }
+}

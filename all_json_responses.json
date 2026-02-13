@@ -1,0 +1,157 @@
+[
+  {
+    "url": "https://sdk-api.apptracer.ru/api/crash/trackSession?crashToken=EepncrZ5OLvqZJ2uuxy07A4w63jFhPDY8p5P5vHyaL01&sdkVersion=2.6.3",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'success': True}"
+  },
+  {
+    "url": "https://login.vk.com/?act=get_anonym_token",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'type': 'okay', 'data': {'access_token': 'anonym.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhbm9ueW1faWQiOjExMTExOTI1MTksImFwcF9pZCI6NTI2NDk4OTYsImlhdCI6MTc3MDk3MTM4OCwiaXNfdmVyaWZpZWQiOmZhbHNlLCJleHAiOjE3NzEwNTc3ODgsInNpZ25lZF90aW1lIjpudWxsLCJhbm9ueW1faWRfbG9uZyI6OTA4Njk0NDE5MzMzNzUwMTAzMSwic2NvcGUiOjc4ODEyOTkzNDc4OTgzNjh9.fYL2CA43IcF1qk6xbcs3OEdXq_fiGnutMvC4haII_kM', 'expired_at': 1771057788}}"
+  },
+  {
+    "url": "https://api.vkvideo.ru/method/internal.getCountersInfo?v=5.269&client_id=52649896",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'error': {'error_code': 28, 'error_msg': 'Application authorization failed: this method is unavailable with anonymous token.', 'request_params': [{'key': 'v', 'value': '5.269'}, {'key': 'client_id', 'value': '52649896'}, {'key': 'method', 'value': 'internal.getCountersInfo'}, {'key': 'oauth', 'value': '1'}]}}"
+  },
+  {
+    "url": "https://api.vkvideo.ru/method/utils.resolveScreenName?v=5.269&client_id=52649896",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'response': {'object_id': 235033828, 'type': 'group'}}"
+  },
+  {
+    "url": "https://api.vkvideo.ru/method/catalog.getVideo?v=5.269&client_id=52649896",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'response': {'catalog': {'default_section': 'PUldVA8AR0RzSVNUUkYEEzZJRVQMFlFXaklRVA8ZWVVzW1pFDQZTGw', 'sections': [{'id': 'PUldVA8AR0RzSVNUUkYEEzZJRVQMFlFXaklRVA8ZWVVzW1pFDQZTGw', 'title': 'Videos', 'breadcrumbs': [{'label': 'Videos'}], 'blocks': [{'id': 'PUlQVA8GR0R3W0tMF1scCCMZNhBaWAcJMTQIFUFdBAgZBQYpRlEbBzQKHRlHFkdEfklTWwcHXlZ1WFFEDRhJU2RRSxFHWx4WZEdLQhcOX0pkWlxUDwVHRHRdS0wYBlhTdlhaTgcMFg', 'data_type': 'action', 'layout': {'name': 'horizontal_buttons', 'style': 'default'}, 'actions': [{'action': {'type': 'follow', 'style': 'default'}, 'owner_id': -235033828, 'ref_layout_name': 'horizontal_buttons', 'ref_data_type': 'action'}]}, {'id': 'PUlQVA8GR0R3W0tMF1scCCMZNgBcUA4JNTQBE1RQDhRkR0tDFw5JATQEHAYXGElSZFFdWhcFXkR8WhQ', 'data_type': 'none', 'layout': {'name': 'header', 'title': 'Videos'}, 'title': 'Videos'}, {'id': 'PUlQVA8GR0R3W0tMF2tYU2RHS04XDkZUdV5ZRQYMWV5qSVhEFw5GVGpJXFQPFgwUKR4ZVBkWX0R8X0VUBAFJXHdHS0QDFlFLdFhcRgYHU1R-Fg', 'data_type': 'videos', 'layout': {'name': 'list', 'owner_i"
+  },
+  {
+    "url": "https://m.vkvideo.ru/?act=track_event",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/@jav2026",
+      "x-requested-with": "XMLHttpRequest",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'data': [1], 'statsMeta': {'platform': 'mvk', 'st': False, 'id': 0, 'time': 1770971392, 'hash': '7WPpJnISzkQY5BVvKhcq9AxEFwrWbqzAokU82nSko7g', 'reloadVersion': 42}, 'static_files': [], 'js': \"window.taggedInline('dbd036dc', () => {window.setIsomorphicState && window.setIsomorphicState(extend(window.isomorphicState || {}, []));});\", 'version': 'e89f5a9058ce5edd36a5439418138446aa4be4d7dfa4870760af8513cd97bcaf', 'rv': 1578, 'type': 0, 'notifications': False}"
+  },
+  {
+    "url": "https://api.vkvideo.ru/method/catalog.getSection?v=5.269&client_id=52649896",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'response': {'section': {'id': 'PUldVA8AR0RzSVNUUkYEEzZJRVQMFlFXaklRVA8ZWVVzW1pFDQZTGw', 'title': 'Videos', 'breadcrumbs': [{'label': 'Videos'}], 'blocks': [{'id': 'PUlQVA8GR0R3W0tMF2tYU2RHS04XDkZUdV5ZRQYMWV5qSVhEFw5GVGpJXFQPFgwUKR4ZVBkWX0R8X0VUBAFJXHdHS0QDFlFLdFhcRgYHU1R-Fg', 'data_type': 'videos', 'layout': {'name': 'list', 'owner_id': -235033828}, 'next_from': 'PUlYVA8AWxs', 'url': 'https://m.vkvideo.ru/@jav2026/added', 'videos_ids': ['-235033828_456240588', '-235033828_456240591', '-235033828_456240593', '-235033828_456240589', '-235033828_456240592', '-235033828_456240590', '-235033828_456240587', '-235033828_456240586', '-235033828_456240585', '-235033828_456240581', '-235033828_456240584', '-235033828_456240582', '-235033828_456240583', '-235033828_456240580', '-235033828_456240575', '-235033828_456240579', '-235033828_456240578', '-235033828_456240577', '-235033828_456240576', '-235033828_456240574'], 'stat_infos': [{'item_id': '-235033828_456240588', 'track_code': 'video_a041"
+  },
+  {
+    "url": "https://api.vkvideo.ru/method/catalog.getSection?v=5.269&client_id=52649896",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'response': {'section': {'id': 'PUldVA8AR0RzSVNUUkYEEzZJRVQMFlFXaklRVA8ZWVVzW1pFDQZTGw', 'title': 'Videos', 'breadcrumbs': [{'label': 'Videos'}], 'blocks': [{'id': 'PUlQVA8GR0R3W0tMF2tYU2RHS04XDkZUdV5ZRQYMWV5qSVhEFw5GVGpJXFQPFgwUKR4ZVBkWX0R8X0VUBAFJXHdHS0QDFlFLdFhcRgYHU1R-Fg', 'data_type': 'videos', 'layout': {'name': 'list', 'owner_id': -235033828}, 'next_from': 'PUlYVA8CWxs', 'url': 'https://m.vkvideo.ru/@jav2026/added', 'videos_ids': ['-235033828_456240573', '-235033828_456240570', '-235033828_456240571', '-235033828_456240572', '-235033828_456240569', '-235033828_456240568', '-235033828_456240567', '-235033828_456240565', '-235033828_456240566', '-235033828_456240564', '-235033828_456240562', '-235033828_456240563', '-235033828_456240561', '-235033828_456240560', '-235033828_456240559', '-235033828_456240558', '-235033828_456240557', '-235033828_456240555', '-235033828_456240552', '-235033828_456240556'], 'stat_infos': [{'item_id': '-235033828_456240573', 'track_code': 'video_2248"
+  },
+  {
+    "url": "https://api.vkvideo.ru/method/catalog.getSection?v=5.269&client_id=52649896",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'response': {'section': {'id': 'PUldVA8AR0RzSVNUUkYEEzZJRVQMFlFXaklRVA8ZWVVzW1pFDQZTGw', 'title': 'Videos', 'breadcrumbs': [{'label': 'Videos'}], 'blocks': [{'id': 'PUlQVA8GR0R3W0tMF2tYU2RHS04XDkZUdV5ZRQYMWV5qSVhEFw5GVGpJXFQPFgwUKR4ZVBkWX0R8X0VUBAFJXHdHS0QDFlFLdFhcRgYHU1R-Fg', 'data_type': 'videos', 'layout': {'name': 'list', 'owner_id': -235033828}, 'next_from': 'PUlYVA8MWxs', 'url': 'https://m.vkvideo.ru/@jav2026/added', 'videos_ids': ['-235033828_456240554', '-235033828_456240553', '-235033828_456240551', '-235033828_456240550', '-235033828_456240548', '-235033828_456240549', '-235033828_456240546', '-235033828_456240547', '-235033828_456240545', '-235033828_456240543', '-235033828_456240544', '-235033828_456240542', '-235033828_456240541', '-235033828_456240540', '-235033828_456240537', '-235033828_456240539', '-235033828_456240538', '-235033828_456240536', '-235033828_456240535', '-235033828_456240534'], 'stat_infos': [{'item_id': '-235033828_456240554', 'track_code': 'video_8d24"
+  },
+  {
+    "url": "https://api.vkvideo.ru/method/catalog.getSection?v=5.269&client_id=52649896",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'response': {'section': {'id': 'PUldVA8AR0RzSVNUUkYEEzZJRVQMFlFXaklRVA8ZWVVzW1pFDQZTGw', 'title': 'Videos', 'breadcrumbs': [{'label': 'Videos'}], 'blocks': [{'id': 'PUlQVA8GR0R3W0tMF2tYU2RHS04XDkZUdV5ZRQYMWV5qSVhEFw5GVGpJXFQPFgwUKR4ZVBkWX0R8X0VUBAFJXHdHS0QDFlFLdFhcRgYHU1R-Fg', 'data_type': 'videos', 'layout': {'name': 'list', 'owner_id': -235033828}, 'next_from': 'PUlYVA8FW1Y7', 'url': 'https://m.vkvideo.ru/@jav2026/added', 'videos_ids': ['-235033828_456240533', '-235033828_456240532', '-235033828_456240531', '-235033828_456240530', '-235033828_456240529', '-235033828_456240528', '-235033828_456240527', '-235033828_456240526', '-235033828_456240525', '-235033828_456240523', '-235033828_456240524', '-235033828_456240522', '-235033828_456240521', '-235033828_456240520', '-235033828_456240519', '-235033828_456240518', '-235033828_456240516', '-235033828_456240517', '-235033828_456240514', '-235033828_456240515'], 'stat_infos': [{'item_id': '-235033828_456240533', 'track_code': 'video_30f"
+  },
+  {
+    "url": "https://api.vkvideo.ru/method/catalog.getSection?v=5.269&client_id=52649896",
+    "method": "POST",
+    "status": 200,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://m.vkvideo.ru/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body_preview": "{'response': {'section': {'id': 'PUldVA8AR0RzSVNUUkYEEzZJRVQMFlFXaklRVA8ZWVVzW1pFDQZTGw', 'title': 'Videos', 'breadcrumbs': [{'label': 'Videos'}], 'blocks': [{'id': 'PUlQVA8GR0R3W0tMF2tYU2RHS04XDkZUdV5ZRQYMWV5qSVhEFw5GVGpJXFQPFgwUKR4ZVBkWX0R8X0VUBAFJXHdHS0QDFlFLdFhcRgYHU1R-Fg', 'data_type': 'videos', 'layout': {'name': 'list', 'owner_id': -235033828}, 'next_from': 'PUlYVA8FWVY7', 'url': 'https://m.vkvideo.ru/@jav2026/added', 'videos_ids': ['-235033828_456240513', '-235033828_456240511', '-235033828_456240512', '-235033828_456240510', '-235033828_456240508', '-235033828_456240509', '-235033828_456240505', '-235033828_456240507', '-235033828_456240504', '-235033828_456240506', '-235033828_456240503', '-235033828_456240501', '-235033828_456240502', '-235033828_456240500', '-235033828_456240499', '-235033828_456240497', '-235033828_456240495', '-235033828_456240496', '-235033828_456240498', '-235033828_456240494'], 'stat_infos': [{'item_id': '-235033828_456240513', 'track_code': 'video_46e"
+  }
+]
